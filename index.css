@@ -1,0 +1,27 @@
+.container{
+    margin-left: 20%; 
+    margin-right: 20%; 
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#keypad{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 10px;
+}
+
+#input{
+    border: 1px solid black;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.numKey{
+    border: 1px solid black;
+}
+
+#num0{
+    grid-column: 1/3;
+}
